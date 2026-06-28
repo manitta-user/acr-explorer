@@ -92,11 +92,21 @@ Cruzar con SNOMED CT —el estándar clínico internacional— es lo que hace al
 
 ## 🖼️ Capturas
 
-### Diagnóstico → estudio recomendado
-Escribís un diagnóstico y obtenés el estudio inicial priorizado, con el código
-SNOMED y la procedencia de la interpretación.
+### Portada
+Buscador unificado: escribís un diagnóstico o síntoma en español.
 
-![Dx → Estudio](docs/dx-estudio.png)
+![Portada](docs/portada.png)
+
+### Diagnóstico → estudio recomendado
+Obtenés el estudio inicial priorizado, con el código SNOMED y la procedencia
+de la interpretación (SNOMED CT / variante / extensión local).
+
+![Diagnóstico → Estudio](docs/diagnostico.png)
+
+### Explorador de los 4115 escenarios
+Búsqueda y filtros (panel, sexo, área corporal, fase) sobre todo el catálogo ACR.
+
+![Explorador](docs/explorador.png)
 
 ---
 
