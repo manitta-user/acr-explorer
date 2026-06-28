@@ -50,6 +50,12 @@ html, body, [class*="css"], .stApp { font-family:'Inter',system-ui,sans-serif; }
 [data-testid="stHeader"] { background:transparent; height:2.6rem; }
 [data-testid="stToolbar"] { display:none; }
 
+/* sidebar SIEMPRE visible: se oculta el botón de colapsar/expandir */
+[data-testid="stSidebarCollapseButton"], [data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"] { display:none !important; }
+section[data-testid="stSidebar"] { transform:none !important; visibility:visible !important;
+  min-width:300px !important; }
+
 /* sidebar */
 section[data-testid="stSidebar"] { background:#0b1322; border-right:1px solid var(--line); }
 section[data-testid="stSidebar"] .stTextInput input,

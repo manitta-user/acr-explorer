@@ -174,6 +174,10 @@ _PROC = {
     "antegrade": "anterógrada", "retrograde": "retrógrada",
     "pharynx": "faringe", "dynamic": "dinámico", "static": "estático",
     "saphenous": "safena", "ablation": "ablación",
+    # frases pulmonares (largas primero: orden correcto en español)
+    "pulmonary arteries": "arterias pulmonares", "pulmonary artery": "arteria pulmonar",
+    "v/q scan lung": "centellograma V/Q de pulmón", "v/q scan": "centellograma V/Q",
+    "lung": "pulmón", "or": "o",
     "pulmonary": "pulmonar", "artery": "arteria", "vein": "vena",
     "drainage": "drenaje", "aspiration": "aspiración",
     "needle": "aguja", "wire": "guía", "balloon": "balón",

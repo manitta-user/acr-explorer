@@ -92,7 +92,11 @@ Cruzar con SNOMED CT —el estándar clínico internacional— es lo que hace al
 
 ## 🖼️ Capturas
 
-> _(Agregá acá capturas/GIF: `docs/captura-dx.png`, `docs/captura-explorador.png`)_
+### Diagnóstico → estudio recomendado
+Escribís un diagnóstico y obtenés el estudio inicial priorizado, con el código
+SNOMED y la procedencia de la interpretación.
+
+![Dx → Estudio](docs/dx-estudio.png)
 
 ---
 
