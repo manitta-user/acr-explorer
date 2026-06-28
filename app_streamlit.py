@@ -285,18 +285,16 @@ st.markdown(
     f'<span class="tchip alt">Uso educativo</span></div></div>'
     '<div class="lead"><h2>Del diagnóstico al <span class="hl">estudio correcto</span>, '
     'con evidencia.</h2>'
-    '<p>Escribí un diagnóstico o síntoma en español y obtené el estudio por imágenes '
-    'recomendado por el ACR, con el estudio inicial priorizado y la trazabilidad a '
-    'SNOMED CT.</p></div>',
+    '<p>El estudio por imágenes recomendado por el ACR, con el estudio inicial '
+    'priorizado y trazabilidad a SNOMED CT.</p></div>',
     unsafe_allow_html=True)
 
 # Buscador protagonista (área principal)
-st.markdown('<div class="searchlbl">Diagnóstico, síntoma o patología</div>',
+st.markdown('<div class="searchlbl">Escribí un diagnóstico, síntoma o patología</div>',
             unsafe_allow_html=True)
 q = st.text_input(
     "Buscar", key="busqueda", label_visibility="collapsed",
-    placeholder="🔎   Escribí un diagnóstico, síntoma o patología…   "
-                "(ej. angor · cefalea súbita · cáncer de mama)")
+    placeholder="🔎   ej. angor · cefalea súbita · cáncer de mama · TEP")
 
 st.markdown(
     '<div class="legend"><span>✅ <b>Apropiado</b></span>'
@@ -443,9 +441,6 @@ resultados, total = consulta_acr.filtrar(
 
 hay_filtro = bool(q or paneles_sel or sexos_sel or areas_sel or fases_sel or solo_aprop)
 if not hay_filtro:
-    st.info("👉 Escribí un **diagnóstico** (lo resuelvo por SNOMED CT y te llevo al "
-            "estudio recomendado por el ACR) o un síntoma/patología para buscar "
-            "en los criterios.")
     st.markdown("**Diagnósticos frecuentes (probá tocando uno):**")
     chips = ["angor", "IAM", "ACV", "TEP", "apendicitis", "cólico renal",
              "cefalea", "lumbalgia", "neumonía", "diverticulitis",
