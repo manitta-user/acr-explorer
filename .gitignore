@@ -1,0 +1,30 @@
+# ============================================================
+# DATOS LICENCIADOS / CON COPYRIGHT — NUNCA subir al repo
+# ============================================================
+# Caché de datos del ACR (escenarios, ratings) y sinónimos derivados de SNOMED.
+acr_cache/
+# Catálogo completo de tópicos ACR (regenerable con tools/importar_acr.py).
+CATALOGO_ACR.md
+# Cualquier release o export de SNOMED CT que se copie al proyecto.
+*SnomedCT*/
+*.rf2
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ============================================================
+# Editores / SO
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

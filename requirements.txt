@@ -1,0 +1,3 @@
+# El motor y la CLI funcionan SOLO con la biblioteca estándar (sin dependencias).
+# Esta dependencia es únicamente para la interfaz web (app_streamlit.py):
+streamlit>=1.30
