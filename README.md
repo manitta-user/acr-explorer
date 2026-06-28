@@ -1,6 +1,6 @@
 # 🩻 ACR Explorer · Apoyo a la decisión de estudios por imágenes
 
-[![Tests](https://github.com/USUARIO/validador-acr/actions/workflows/ci.yml/badge.svg)](https://github.com/USUARIO/validador-acr/actions/workflows/ci.yml)
+[![Tests](https://github.com/manittaantonio3-bot/acr-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/manittaantonio3-bot/acr-explorer/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/estado-prototipo%20educativo-orange.svg)]()
